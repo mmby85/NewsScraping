@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bf
 
 
-url = "https://www.washingtonpost.com/sports/olympics/2021/07/09/team-usa-coronavirus-tokyo-olympics"
+url = input('please enter url :')
 
 news = requests.get(url)
 
